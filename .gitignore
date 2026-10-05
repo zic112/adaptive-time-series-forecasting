@@ -1,0 +1,43 @@
+# Local Python environments and caches
+.venv/
+venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.matplotlib/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Generated experiments and submission artifacts
+results/
+checkpoints/
+runs_task2*/
+submissions/
+*.executed.ipynb
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Course data stays local; schema instructions are public
+covariate_forecasting/Data/*
+!covariate_forecasting/Data/README.md
+
+# Reports and local document exports
+Report/
+report/
+*.pdf
+*.tex
+*.aux
+*.out
+*.toc
+*.zip
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
